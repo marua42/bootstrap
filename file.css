@@ -1,0 +1,108 @@
+body {
+  background-image: url(./img/Group\23png);
+  background-repeat: no-repeat;
+  background-position: top -580px right -380px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fd8061;
+}
+a:visited {
+  color: #1c1e52;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.log-in:visited {
+  color: #f9faff;
+}
+
+.menu {
+  font-family: "AvenirNextCyr-Regular";
+  font-weight: 800;
+  color: #1c1e52;
+  list-style: none;
+  padding-top: 24px;
+  padding-left: 50px;
+}
+
+.first {
+  display: inline;
+  padding-left: 32px;
+}
+
+.login {
+  color: #f9faff;
+  margin-top: 42px;
+  margin-right: 40px;
+}
+
+.log-in:first-child {
+  margin-right: 30px;
+}
+
+.slogan {
+  font-family: "AvenirNextCyr-Bold";
+  font-weight: 900;
+  font-size: 48px;
+  padding-left: 50px;
+  padding-top: 165px;
+  line-height: 64px;
+  color: #1c1e52;
+}
+
+.get {
+  font-family: "AvenirNextCyr-Regular";
+  font-weight: 800;
+  width: 170px;
+  height: 40px;
+  background: #fd8061;
+  border-radius: 100px;
+  border: none;
+  outline: none;
+}
+
+.get:hover {
+  color: #2e2f37;
+}
+
+.button {
+  padding: 24px 50px;
+}
+
+.get__text {
+  width: 119px;
+  height: 24px;
+  margin-left: 18px;
+  color: #f9faff;
+}
+
+.happy {
+  color: #fd8061;
+}
+
+.list {
+  font-family: "AvenirNextCyr-Bold";
+  font-weight: 800;
+  font-size: 16px;
+  color: #1c1e52;
+  list-style: none;
+  padding-top: 24px;
+  padding-left: 48px;
+}
+
+.second {
+  padding-bottom: 8px;
+}
+
+.icon {
+  padding-right: 10px;
+}
