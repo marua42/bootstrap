@@ -4,35 +4,15 @@ body {
   background-position: top -580px right -380px;
 }
 
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  color: #fd8061;
-}
-a:visited {
-  color: #fd8061;
-}
-
 .header {
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
 
-.log-in:hover {
-  color: #f9faff;
-}
-
-.log-in:visited {
-  color: #f9faff;
-}
-
 .menu {
   font-family: "AvenirNextCyr-Regular";
   font-weight: 800;
-  color: #1c1e52;
   list-style: none;
   padding-top: 24px;
 }
@@ -42,8 +22,30 @@ a:visited {
   margin-left: 32px;
 }
 
-.login {
+.menu-link {
+  color: #1c1e52;
+}
+
+.menu-link:hover {
+  color: #fd8061;
+  text-decoration: none;
+}
+
+.log-in {
+  text-decoration: none;
   color: #f9faff;
+}
+
+.log-in:hover {
+  color: #f9faff;
+  text-decoration: none;
+}
+
+.log-in:visited {
+  color: #f9faff;
+}
+
+.login {
   margin-top: 42px;
   margin-right: 40px;
 }
