@@ -1,5 +1,6 @@
 body {
-  background-image: url(./img/Group\23png);
+  position: relative;
+  background-image: url(./img/Group.png);
   background-repeat: no-repeat;
   background-position: top -580px right -380px;
 }
@@ -12,7 +13,7 @@ a:hover {
   color: #fd8061;
 }
 a:visited {
-  color: #1c1e52;
+  color: #fd8061;
 }
 
 .header {
@@ -31,12 +32,11 @@ a:visited {
   color: #1c1e52;
   list-style: none;
   padding-top: 24px;
-  padding-left: 50px;
 }
 
 .first {
   display: inline;
-  padding-left: 32px;
+  margin-left: 32px;
 }
 
 .login {
@@ -49,12 +49,16 @@ a:visited {
   margin-right: 30px;
 }
 
+.content {
+  padding-left: 40px;
+}
+
 .slogan {
   font-family: "AvenirNextCyr-Bold";
   font-weight: 900;
   font-size: 48px;
-  padding-left: 50px;
   padding-top: 165px;
+  padding-bottom: 24px;
   line-height: 64px;
   color: #1c1e52;
 }
@@ -64,6 +68,7 @@ a:visited {
   font-weight: 800;
   width: 170px;
   height: 40px;
+  color: #f9faff;
   background: #fd8061;
   border-radius: 100px;
   border: none;
@@ -71,18 +76,7 @@ a:visited {
 }
 
 .get:hover {
-  color: #2e2f37;
-}
-
-.button {
-  padding: 24px 50px;
-}
-
-.get__text {
-  width: 119px;
-  height: 24px;
-  margin-left: 18px;
-  color: #f9faff;
+  background: #1c1e52;
 }
 
 .happy {
@@ -95,14 +89,23 @@ a:visited {
   font-size: 16px;
   color: #1c1e52;
   list-style: none;
-  padding-top: 24px;
-  padding-left: 48px;
+  margin-top: 24px;
+  padding: 0px;
 }
 
 .second {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .icon {
-  padding-right: 10px;
+  margin-right: 10px;
+}
+
+.freshh {
+  position: absolute;
+  top: 186px;
+  left: 480px;
+  width: 800px;
+  height: 534px;
+  background-image: url(./img/freshh-connection-unsplash-removebg.png);
 }
