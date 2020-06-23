@@ -1,8 +1,11 @@
 body {
-  position: relative;
   background-image: url(./img/Group.png);
   background-repeat: no-repeat;
   background-position: top -580px right -380px;
+}
+
+.container {
+  position: relative;
 }
 
 a {
@@ -22,6 +25,10 @@ a:visited {
   width: 100%;
 }
 
+.log-in:hover {
+  color: #f9faff;
+}
+
 .log-in:visited {
   color: #f9faff;
 }
@@ -34,7 +41,7 @@ a:visited {
   padding-top: 24px;
 }
 
-.first {
+.menu-item {
   display: inline;
   margin-left: 32px;
 }
@@ -51,13 +58,13 @@ a:visited {
 
 .content {
   padding-left: 40px;
+  padding-top: 165px;
 }
 
 .slogan {
   font-family: "AvenirNextCyr-Bold";
   font-weight: 900;
   font-size: 48px;
-  padding-top: 165px;
   padding-bottom: 24px;
   line-height: 64px;
   color: #1c1e52;
@@ -93,7 +100,7 @@ a:visited {
   padding: 0px;
 }
 
-.second {
+.list-item {
   margin-bottom: 8px;
 }
 
@@ -103,8 +110,8 @@ a:visited {
 
 .freshh {
   position: absolute;
-  top: 186px;
   left: 480px;
+  bottom: 0px;
   width: 800px;
   height: 534px;
   background-image: url(./img/freshh-connection-unsplash-removebg.png);
